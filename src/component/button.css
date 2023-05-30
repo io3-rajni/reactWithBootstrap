@@ -1,0 +1,24 @@
+.button,
+.button1 {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 9px;
+  background-color: darkcyan;
+  color: cornsilk;
+  font-size: larger;
+  margin-top: 4rem;
+}
+.button:hover,
+.button1:hover {
+  background-color: rgb(15, 3, 32);
+  color: #fff;
+}
+.heading {
+  margin-top: 4rem;
+}
+.btnDiv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
