@@ -7,6 +7,7 @@
   color: cornsilk;
   font-size: larger;
   margin-top: 4rem;
+  box-shadow: 5px 5px 13px 0px darkcyan;
 }
 .button:hover,
 .button1:hover {
@@ -14,11 +15,41 @@
   color: #fff;
 }
 .heading {
-  margin-top: 4rem;
+  margin: 1rem 0rem 0rem 8.5rem;
+  font-size: 4rem;
 }
-.btnDiv {
+h1 {
+  color: darkcyan;
+}
+
+.btn1,
+.btn2 {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
-  margin: auto;
+}
+.btnDiv {
+  width: 22%;
+  height: 58vh;
+  margin: 10% auto;
+  background-color: dimgray;
+  border-radius: 20px;
+  box-shadow: 5px 5px 13px 0px darkcyan;
+  border-right: 6px solid darkcyan;
+  border-bottom: 7px solid darkcyan;
+}
+.button2,
+.button3 {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 9px;
+  background-color: darkcyan;
+  box-shadow: 5px 5px 13px 0px darkcyan;
+  color: cornsilk;
+  font-size: larger;
+  margin-top: 4rem;
+}
+.button2:hover,
+.button3:hover {
+  background-color: rgb(15, 3, 32);
+  color: #fff;
 }
